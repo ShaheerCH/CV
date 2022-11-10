@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Shaheer FA22-BCS-155</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <li class="nav-links">
+          <ul>
+            <a href="#home">Home</a>
+          </ul>
+          <ul>
+            <a href="#projects">Projects</a>
+          </ul>
+          <ul>
+            <a href="#about">About</a>
+          </ul>
+          <ul>
+            <a href="#contact-section">Contact</a>
+          </ul>
+        </li>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h1 class="hero">
+        Shaheer <br />
+        Chaudry
+      </h1>
+      <p class="ab-dtl">
+        Helloo! I am a software developer! I can help you build a <br />
+        product, feature or website. Take a look at my work. If you <br />
+        like what you see and have a project you need coded, <br />
+        don’t hesitate and contact me.
+      </p>
+
+      <button class="ab-btn">Meet for Coffee</button>
+    </section>
+
+    <section id="projects">
+      <h2 class="proj-ttl">Projects</h2>
+
+      <div class="proj-cont">
+        <div class="card">
+          <img
+            class="proj-img"
+            src="https://assets.justinmind.com/wp-content/uploads/2020/09/ios-app-design-drum-school.png"
+            alt="good img"
+          />
+          <h3 class="proj-name">Project 1</h3>
+          <p class="proj-dtls">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+            facilis magni modi temporibus. Odit numquam officia sunt consectetur
+            dicta nemo accusantium distinctio nihil aperiam, ratione ipsum vitae
+            magnam, nulla accusamus.
+          </p>
+          <button class="proj">Details</button>
+        </div>
+
+        <div class="card">
+          <img
+            class="proj-img"
+            src="https://assets.justinmind.com/wp-content/uploads/2020/09/ios-app-design-drum-school.png"
+            alt="good img"
+          />
+          <h3 class="proj-name">Project 1</h3>
+          <p class="proj-dtls">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+            facilis magni modi temporibus. Odit numquam officia sunt consectetur
+            dicta nemo accusantium distinctio nihil aperiam, ratione ipsum vitae
+            magnam, nulla accusamus.
+          </p>
+          <button class="proj">Details</button>
+        </div>
+
+        <div class="card">
+          <img
+            class="proj-img"
+            src="https://assets.justinmind.com/wp-content/uploads/2020/09/ios-app-design-drum-school.png"
+            alt="good img"
+          />
+          <h3 class="proj-name">Project 1</h3>
+          <p class="proj-dtls">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+            facilis magni modi temporibus. Odit numquam officia sunt consectetur
+            dicta nemo accusantium distinctio nihil aperiam, ratione ipsum vitae
+            magnam, nulla accusamus.
+          </p>
+          <button class="proj">Details</button>
+        </div>
+
+        <div class="card">
+          <img
+            class="proj-img"
+            src="https://assets.justinmind.com/wp-content/uploads/2020/09/ios-app-design-drum-school.png"
+            alt="good img"
+          />
+          <h3 class="proj-name">Project 1</h3>
+          <p class="proj-dtls">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+            facilis magni modi temporibus. Odit numquam officia sunt consectetur
+            dicta nemo accusantium distinctio nihil aperiam, ratione ipsum vitae
+            magnam, nulla accusamus.
+          </p>
+          <button class="proj">Details</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about">
+        <h2 class="abt-h2">About me</h2>
+        <p class="abt-dtl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+          Officia repellat qui accusantium minima <br />
+          debitis cumque temporibus quae libero aliquam recusandae, <br />
+          id, iste reprehenderit quaerat, excepturi ab impedit animi tenetur!
+          Temporibus.
+        </p>
+      </div>
+      <div class="knowledge">
+        <div class="Edu">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              BS Computer Science <br />
+              Comsats
+            </li>
+            <li>Full-Stack Development Microverse</li>
+            <li>A-levels Beaconhouse</li>
+            <li>O-Levels City School</li>
+          </ul>
+        </div>
+        <div class="Skill">
+          <h2>Skills</h2>
+          <ul>
+            <li>Github</li>
+            <li>Codekit</li>
+            <li>Gitlab</li>
+            <li>Excel</li>
+            <li>Powerpoint</li>
+          </ul>
+        </div>
+        <div class="Langs">
+          <h2>Languages</h2>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Ruby</li>
+            <li>C</li>
+          </ul>
+        </div>
+        <div class="fram">
+          <h2>Frameworks</h2>
+          <ul>
+            <li>React</li>
+            <li>Bootstrap</li>
+            <li>Tailwind</li>
+            <li>Ruby on Rails</li>
+            <li>Rspec</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-me" id="contact-section">
+      <h1 class="cont-ttl">Get in touch...</h1>
+
+      <form class="form" action="https://formspree.io/f/mqknglvd" method="post">
+        <ul class="form-list">
+          <li id="form-name">
+            <label for="name">Your name :</label>
+            <input
+              type="text"
+              onchange="storeData();"
+              id="name"
+              name="name"
+              placeholder="Alan Shore"
+              maxlength="30"
+              required
+            />
+          </li>
+          <li id="form-email">
+            <label for="email">Your email :</label>
+            <input
+              type="email"
+              onchange="storeData();"
+              id="email"
+              name="email"
+              placeholder="name@email.com"
+              required
+              pattern="[a-z@.]+"
+            />
+          </li>
+        </ul>
+
+        <label id="msg-label" for="msg">Message :</label>
+        <textarea
+          id="msg"
+          name="message"
+          onchange="storeData();"
+          placeholder="Enter your message here..."
+          cols="32"
+          rows="8"
+          maxlength="500"
+          required
+        ></textarea>
+        <button type="submit" id="submit-form">Start collaboration</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2022 Muhammad Shaheer</p>
+    </footer>
+  </body>
+</html>

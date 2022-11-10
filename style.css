@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+
+.nav-links {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 0.7rem 1rem;
+  margin: 10px 45px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  border-bottom: 3px solid #1a2236;
+}
+
+.nav-links a {
+  color: #1a2236;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.nav-links a:hover {
+  transition: 0.2s linear;
+  color: rgb(154, 7, 7);
+  border-bottom: 3px solid rgb(154, 7, 7);
+}
+
+/* Hero */
+
+.hero {
+  margin: 20px 0 30px 45px;
+  font-size: 5vw;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+.ab-dtl {
+  text-align: justify;
+  margin-left: 45px;
+  font-size: 25px;
+}
+
+.ab-btn {
+  margin: 35px 0 0 45px;
+  font-size: 25px;
+  padding: 20px;
+  font-weight: 500;
+  background-color: #1a2236;
+  color: #fff;
+  border: 2px solid #1a2236;
+}
+
+.ab-btn:hover {
+  transition: 0.2s linear;
+  border: 2px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
+/* Projects */
+
+.proj-ttl {
+  text-align: center;
+  margin: 20px 45px;
+  padding: 10px;
+  border-bottom: 3px solid #1a2236;
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+.proj-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  width: 300px;
+  border: 3px solid rgb(162 152 152);
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 30px;
+  box-shadow: black 0px 0px 20px 2px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0 0 30px 5px #1a2236;
+  border: 3px solid #1a2236;
+  transition: ease-out;
+  transition: 0.5s;
+}
+
+img {
+  width: 94%;
+  margin: 10px;
+}
+
+.proj-name {
+  text-align: center;
+  margin: 5px;
+}
+
+.proj-dtls {
+  text-align: justify;
+  margin: 15px;
+}
+
+.proj {
+  margin: 5px 0 18px 0px;
+  padding: 6px 35px;
+  background: white;
+  border: 3px solid rgb(162 152 152);
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.proj:hover {
+  border: 3px solid #1a2236;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+/* About */
+
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 25px 45px 0 45px;
+  border-bottom: 3px solid #1a2236;
+  border-top: 3px solid #1a2236;
+  padding: 35px 0 0 0;
+}
+
+.knowledge {
+  display: grid;
+  grid-template-columns: 260px 260px;
+  grid-template-rows: 230px 230px;
+  gap: 30px;
+}
+
+.Edu {
+}
+
+.Skill {
+}
+
+.Langs {
+}
+
+.fram {
+}
+
+footer {
+  background-color: #1a2236;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+/* Contact*/
+
+.cont-ttl {
+  display: flex;
+  text-align: center;
+  margin: 30px 45px;
+  padding: 10px;
+  border-bottom: 3px solid #1a2236;
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  gap: 20px;
+}
+
+.form-list {
+  display: flex;
+}
+
+textarea {
+  width: 100%;
+  border: 0px;
+}
+
+#form-name,
+#form-email {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0 15px;
+}
+
+input,
+textarea {
+  padding: 5px;
+  border: 0px;
+  background-color: rgb(213, 211, 210);
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #1a2236;
+  border-bottom: #1a2236 3px solid;
+}
+
+#submit-form {
+  margin: 15px 0 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-weight: 500;
+  background-color: #1a2236;
+  color: #fff;
+  border: 2px solid #1a2236;
+}
+
+#submit-form:hover {
+  transition: 0.2s linear;
+  border: 2px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
